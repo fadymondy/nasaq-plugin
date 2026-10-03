@@ -18,6 +18,8 @@
  "cms_export_redirects",
  "cms_export_wxr",
  "cms_get_entry",
+ "cms_import_fm_site",
+ "cms_import_fm_status",
  "cms_import_media_url",
  "cms_import_redirects",
  "cms_import_site",

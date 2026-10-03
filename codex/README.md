@@ -22,7 +22,7 @@ Then sign in (see Auth below).
 
 ```bash
 mkdir -p ~/.codex/skills
-for s in nasaq-studio-build nasaq-ui-design nasaq-theme-build nasaq-shadcn; do
+for s in nasaq-studio-build nasaq-ui-design nasaq-theme-build nasaq-app-build nasaq-shadcn; do
   cp -r nasaq/skills/$s ~/.codex/skills/$s
 done
 ```
