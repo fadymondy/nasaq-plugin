@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "nasaq-studio": {
+      "type": "http",
+      "url": "${NASAQ_STUDIO_URL:-https://studio.nasaqui.com}/api/mcp"
+    },
+    "nasaq-ui": {
+      "type": "http",
+      "url": "https://nasaq-mcp.fadymondy.com/mcp"
+    }
+  }
+}

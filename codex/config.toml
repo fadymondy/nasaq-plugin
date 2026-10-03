@@ -1,0 +1,16 @@
+# Append to ~/.codex/config.toml
+
+# Nasaq Studio (your sites, content, themes). Sign in with OAuth: `codex mcp login nasaq-studio`
+# or use a workspace token exported as NASAQ_TOKEN (never paste the token in this file).
+[mcp_servers.nasaq-studio]
+url = "https://studio.nasaqui.com/api/mcp"
+bearer_token_env_var = "NASAQ_TOKEN"
+
+# Nasaq UI catalogue (components, tokens, setup guides). Public, no sign-in.
+[mcp_servers.nasaq-ui]
+url = "https://nasaq-mcp.fadymondy.com/mcp"
+
+# Optional: shadcn MCP server (search and install registry items by prompt).
+# [mcp_servers.shadcn]
+# command = "npx"
+# args = ["shadcn@latest", "mcp"]
