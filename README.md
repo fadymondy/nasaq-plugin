@@ -5,7 +5,7 @@ Build sites, apps and themes on [Nasaq Studio](https://studio.nasaqui.com) over 
 
 | Folder | For | What it is |
 |---|---|---|
-| [`nasaq/`](nasaq/) | Claude Code | The plugin: MCP servers, 4 skills, 4 commands, 2 agents. |
+| [`nasaq/`](nasaq/) | Claude Code | The plugin: MCP servers, 5 skills, 5 commands, 2 agents. |
 | [`codex/`](codex/) | OpenAI Codex | MCP config, install steps, AGENTS.md roles. Codex can also install the same plugin. |
 | [`scripts/`](scripts/) | Maintainers | `check-tools.mjs` verifies every `cms_*` tool named in the docs exists in `tools.json`. |
 
@@ -16,9 +16,10 @@ Build sites, apps and themes on [Nasaq Studio](https://studio.nasaqui.com) over 
 - **Skills**
   - `nasaq-studio-build`: project, content model, bilingual entries, media, menus, theme, publish, domain, apps; with the exact `cms_*` tools.
   - `nasaq-ui-design`: shell, forms, tables, states, RTL, Lusail, tokens, dark mode, accessibility, and a screenshot checklist.
-  - `nasaq-theme-build`: art direction, tokens, bilingual, interactivity, budgets, verification gate and rubric.
+  - `nasaq-theme-build`: themes as real runtime code: the package contract, builder-driven settings, art direction (with approved examples), previews, live-demo model, porting, and the verification gate with a self-check script.
+  - `nasaq-app-build`: CircleXO apps: splash then SSO entry flow, SDK and events webhook, hub manifest, store listings.
   - `nasaq-shadcn`: the `@nasaq` registry, preset, token bridge, shadcn MCP.
-- **Commands**: `/nasaq:connect`, `/nasaq:new-site`, `/nasaq:new-theme`, `/nasaq:audit-ui`.
+- **Commands**: `/nasaq:connect`, `/nasaq:new-site`, `/nasaq:new-theme`, `/nasaq:new-app`, `/nasaq:audit-ui`.
 - **Agents**: `nasaq-designer` (builds and verifies), `nasaq-ui-reviewer` (read-only audit).
 
 ## Install: Claude Code
@@ -68,12 +69,17 @@ Examples to try:
 - "Build a settings screen with Nasaq UI: phone, address, logo upload, and make sure it works in Arabic."
 - "Install the Nasaq data table with shadcn and wire it to this API."
 
-## Unverified in v0.1.0
+## Changelog
+
+See [`CHANGELOG.md`](CHANGELOG.md).
+
+## Unverified in v0.2.0
 
 - Tool names were checked against the Studio tool registry; a live `tools/list` needs a signed-in token. If a tool is
   missing, trust the server.
 - `AddressInput` is not exported by `@fadymondy/nasaq` 1.0.0; the skill says how to handle it.
-- The theme package contract is deliberately not hard-coded; `nasaq-theme-build` asks for the current runtime reference.
+- The theme runtime contract is documented from the v1 runtime; a newer runtime document in your repo wins on field names.
+- The `platform_*` MCP tools are for platform administrators and are not covered by the skills.
 
 ## Validate
 

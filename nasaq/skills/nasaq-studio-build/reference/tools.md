@@ -64,6 +64,8 @@ Always trust `tools/list` from the live server over this table: it is the source
 | `cms_list_media` | read | `site`, `q`, `folder`, `kind`, `limit`, `offset` | List the media library of a site with filters. |
 | `cms_update_media` | write | `id*`, `alt`, `caption`, `folder`, `filename` | Edit alt text, caption, folder and name of a library file. |
 | `cms_import_media_url` | write | `site`, `url*`, `folder`, `alt`, `caption` | Download an external image or file link into the media library. |
+| `cms_import_fm_site` | write | `origin*`, `site`, `slug`, `name`, `domain`, `theme`, `no_media`, `no_docs`, `no_scrape` | Copy an existing fm-v2 site (content, media, menus, redirects, SEO) into a project using the `fadymondy` theme. Background job; read-only on the origin; never changes DNS; idempotent. |
+| `cms_import_fm_status` | read | `job*` | Progress and result of a `cms_import_fm_site` job. |
 
 ## Menus, redirects, taxonomy
 

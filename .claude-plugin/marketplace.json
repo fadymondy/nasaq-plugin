@@ -1,13 +1,19 @@
 {
   "name": "nasaq",
-  "owner": { "name": "Fady Mondy", "url": "https://github.com/fadymondy" },
-  "metadata": { "description": "Nasaq for Claude Code and Codex: build sites, apps and themes on Nasaq Studio over MCP, and design well with Nasaq UI and shadcn." },
+  "owner": {
+    "name": "Fady Mondy",
+    "url": "https://github.com/fadymondy"
+  },
+  "metadata": {
+    "description": "Nasaq for Claude Code and Codex: build sites, apps and themes on Nasaq Studio over MCP, and design well with Nasaq UI and shadcn."
+  },
   "plugins": [
     {
       "name": "nasaq",
       "source": "./nasaq",
-      "description": "Build on Nasaq Studio over MCP (sites, content, themes, publishing) and design with Nasaq UI and shadcn: skills, commands and agents.",
-      "category": "development"
+      "description": "Build on Nasaq Studio over MCP (sites, content, themes, publishing), author themes and CircleXO apps, and design with Nasaq UI and shadcn: skills, commands and agents.",
+      "category": "development",
+      "version": "0.2.0"
     }
   ]
 }

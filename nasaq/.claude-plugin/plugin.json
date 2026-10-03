@@ -1,10 +1,27 @@
 {
   "name": "nasaq",
-  "version": "0.1.0",
-  "description": "Nasaq for Claude Code: the Nasaq Studio and Nasaq UI MCP servers, skills for building sites, apps and themes over MCP and for designing with Nasaq UI and shadcn, slash commands, and a designer and a UI reviewer agent.",
-  "author": { "name": "Fady Mondy", "url": "https://github.com/fadymondy" },
+  "version": "0.2.0",
+  "description": "Nasaq for Claude Code: the Nasaq Studio and Nasaq UI MCP servers, skills for building sites, themes (runtime contract, builder-driven settings, verification gate) and CircleXO apps over MCP and for designing with Nasaq UI and shadcn, slash commands, and a designer and a UI reviewer agent.",
+  "author": {
+    "name": "Fady Mondy",
+    "url": "https://github.com/fadymondy"
+  },
   "homepage": "https://studio.nasaqui.com",
   "repository": "https://github.com/fadymondy/nasaq-plugin",
   "license": "MIT",
-  "keywords": ["nasaq", "nasaq-studio", "nasaq-ui", "mcp", "shadcn", "cms", "themes", "rtl", "arabic", "design-system"]
+  "keywords": [
+    "nasaq",
+    "nasaq-studio",
+    "nasaq-ui",
+    "mcp",
+    "shadcn",
+    "cms",
+    "themes",
+    "rtl",
+    "arabic",
+    "design-system",
+    "circlexo",
+    "sso",
+    "themes-runtime"
+  ]
 }
