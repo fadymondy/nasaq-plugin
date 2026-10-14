@@ -1,4 +1,18 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/fadymondy/nasaq/main/packages/brands/assets/nasaq-mark.svg" alt="Nasaq" width="80" />
+
 # Nasaq plugin for Claude Code and Codex
+
+**Build sites, apps and themes on Nasaq Studio over MCP, and design with Nasaq UI and shadcn.**
+
+[![CI](https://github.com/fadymondy/nasaq-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fadymondy/nasaq-plugin/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/fadymondy/nasaq-plugin?style=social)](https://github.com/fadymondy/nasaq-plugin/stargazers)
+
+[Nasaq](https://github.com/fadymondy/nasaq) · [Nasaq Studio](https://studio.nasaqui.com) · [Discussions](https://github.com/fadymondy/nasaq-plugin/discussions) · [Contributing](CONTRIBUTING.md)
+
+</div>
 
 Build sites, apps and themes on [Nasaq Studio](https://studio.nasaqui.com) over MCP, and design with
 [Nasaq UI](https://nasaqui.com) components and shadcn, without guessing tool names or breaking RTL.
@@ -88,7 +102,23 @@ claude plugin validate .
 node scripts/check-tools.mjs
 ```
 
-MIT licensed.
+## Contributing
+
+Contributions are welcome: skill and command improvements, fixes to tool references, and Codex support. Read [CONTRIBUTING.md](CONTRIBUTING.md) for setup, conventions
+and the DCO sign-off, then look for
+[`good first issue`](https://github.com/fadymondy/nasaq-plugin/labels/good%20first%20issue).
+
+## Community
+
+- [GitHub Discussions](https://github.com/fadymondy/nasaq-plugin/discussions): questions, ideas, show and tell
+- [Issues](https://github.com/fadymondy/nasaq-plugin/issues/new/choose): bugs and feature requests
+- Security reports: see [SECURITY.md](SECURITY.md)
+
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## License
+
+MIT, © 2026 Fady Mondy. See [LICENSE](LICENSE).
 
 ---
 
