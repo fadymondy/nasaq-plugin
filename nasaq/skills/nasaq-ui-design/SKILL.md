@@ -17,8 +17,8 @@ Do not guess its API from memory: the `nasaq-ui` MCP server is the catalogue.
 4. `get_foundation { topic }` for the rules (`color`, `layout`, `setup-react`, `setup-shadcn`, ...) and
    `list_tokens { prefix: "--nq-surface" }` for token values.
 
-If the `nasaq-ui` MCP is not connected, the same catalogue is at `https://nasaq-ui.fadymondy.com` and the registry
-index at `https://nasaq-ui.fadymondy.com/registry.json`.
+If the `nasaq-ui` MCP is not connected, the same catalogue is at `https://docs.nasaqui.com` and the registry
+index at `https://docs.nasaqui.com/registry.json`.
 
 ## The non-negotiable rules
 

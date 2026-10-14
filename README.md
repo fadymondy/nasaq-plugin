@@ -1,7 +1,7 @@
 # Nasaq plugin for Claude Code and Codex
 
 Build sites, apps and themes on [Nasaq Studio](https://studio.nasaqui.com) over MCP, and design with
-[Nasaq UI](https://nasaq-ui.fadymondy.com) components and shadcn, without guessing tool names or breaking RTL.
+[Nasaq UI](https://nasaqui.com) components and shadcn, without guessing tool names or breaking RTL.
 
 | Folder | For | What it is |
 |---|---|---|
@@ -11,7 +11,7 @@ Build sites, apps and themes on [Nasaq Studio](https://studio.nasaqui.com) over 
 
 ## What you get
 
-- **MCP**: `nasaq-studio` (`https://studio.nasaqui.com/api/mcp`, OAuth) and `nasaq-ui` (public catalogue of Nasaq components,
+- **MCP**: `nasaq-studio` (`https://studio.nasaqui.com/api/mcp`, OAuth) and `nasaq-ui` ([`https://mcp.nasaqui.com/mcp`](https://mcp.nasaqui.com), no sign-in: public catalogue of Nasaq components,
   tokens and setup guides).
 - **Skills**
   - `nasaq-studio-build`: project, content model, bilingual entries, media, menus, theme, publish, domain, apps; with the exact `cms_*` tools.
