@@ -23,8 +23,8 @@ Also capture the loading, empty, error and a long-content state for the screens 
 ## Checks (mark pass or fail with evidence)
 
 1. **Direction**: in `ar`, `<html dir="rtl" lang="ar">`; sidebar on the right; chevrons and arrows mirrored; no clipped or overlapping text.
-2. **Font**: evaluate `getComputedStyle(document.body).fontFamily` in `ar` and confirm Lusail is first and loaded
-   (`document.fonts.check('16px Lusail')` is true). If the product has no Lusail licence, report it instead of passing.
+2. **Font**: evaluate `getComputedStyle(document.body).fontFamily` in `ar` and confirm IBM Plex Sans Arabic is first and loaded
+   (`document.fonts.check('16px "IBM Plex Sans Arabic"')` is true). If the font files are not self-hosted, report it instead of passing.
 3. **Overflow**: `document.documentElement.scrollWidth <= innerWidth` at 390 and 1440; tables scroll inside their container.
 4. **Console**: no errors or hydration warnings; no failed network requests for assets.
 5. **Colour**: search the diff for hex, `rgb(`, `hsl(`, palette classes (`-(red|blue|gray|slate|zinc|green)-\d`). None allowed.

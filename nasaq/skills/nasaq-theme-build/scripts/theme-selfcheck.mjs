@@ -69,7 +69,7 @@ if (m) {
     }
     if (c.light && c.dark && c.light.background === c.dark.background) add('ERROR', 'tokens', 'dark background equals light background', mf);
   }
-  if (m.tokens?.fonts?.ar && m.tokens.fonts.ar !== 'Lusail') add('ERROR', 'fonts', 'Arabic font must be Lusail', mf);
+  if (m.tokens?.fonts?.ar && m.tokens.fonts.ar !== 'IBM Plex Sans Arabic') add('ERROR', 'fonts', 'Arabic font must be IBM Plex Sans Arabic (Lusail is retired: it has no third-party licence)', mf);
   const pv = FIELD.previews(m) || {};
   const prevs = [pv.thumbnail, ...(pv.screens || [])].filter(Boolean);
   if (!pv.thumbnail || (pv.screens || []).length < 8) add('ERROR', 'previews', 'previews need a thumbnail and >= 8 screens (desktop+mobile x EN+AR x 2 pages), see reference/gate.md', mf);
@@ -143,7 +143,7 @@ if (!files.some((f) => /footer/i.test(path.basename(f)))) add('ERROR', 'structur
 if (!files.some((f) => /not-found|404/i.test(path.basename(f)))) add('WARN', 'structure', 'no 404 template');
 if (!files.some((f) => /theme[-_]?(toggle|switch)/i.test(path.basename(f)))) add('WARN', 'structure', 'no theme toggle component');
 if (!files.some((f) => /(locale|lang)/i.test(path.basename(f)))) add('WARN', 'structure', 'no locale switch component');
-if (!files.some((f) => /\.woff2$/i.test(f))) add('WARN', 'fonts', 'no self-hosted woff2 fonts in theme (Lusail subset expected)');
+if (!files.some((f) => /\.woff2$/i.test(f))) add('WARN', 'fonts', 'no self-hosted woff2 fonts in theme (IBM Plex Sans Arabic woff2 expected)');
 
 const errs = out.filter((o) => o.level === 'ERROR').length, warns = out.length - errs;
 if (asJson) console.log(JSON.stringify({ errors: errs, warnings: warns, items: out }, null, 2));

@@ -10,7 +10,7 @@ You design and build UI on Nasaq. You are not done until you have looked at real
 2. Consult the `nasaq-ui` MCP (`search_components`, `get_component`, `get_foundation`, `list_tokens`) before writing any
    control. Use Nasaq components as they are; never re-implement one.
 3. State the plan in a few lines: structure, components, states, copy in EN and AR, tokens used.
-4. Build it. Rules: tokens only (no raw colours), logical CSS, Lusail for Arabic, one user menu in the sidebar and the
+4. Build it. Rules: tokens only (no raw colours), logical CSS, IBM Plex Sans Arabic for Arabic, one user menu in the sidebar and the
    workspace switcher in the sidebar header, `PhoneInput`/`AddressInput` for those fields, image fields with upload,
    library and link, loading/empty/error states.
 5. For themes run the self-check script and the polish audit as well (see `nasaq-theme-build/reference/gate.md`).

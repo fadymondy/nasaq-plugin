@@ -27,7 +27,7 @@ Capture from the theme running in demo mode against its `demo.json`:
 
 - manifest: valid id, EN and AR name and description, version, coverage, both colour modes with the six roles plus
   `onPrimary`, contrast (foreground/background, foreground/muted, text on primary), dark differs from light, Arabic font
-  is Lusail;
+  is IBM Plex Sans Arabic;
 - previews: at least 8 screens plus a thumbnail, no SVG, files exist and are not tiny, EN and AR and desktop and mobile
   all present, `DESIGN.md` present;
 - code: physical left/right CSS and Tailwind utilities, `transition: all`, lorem and other placeholder copy, `href="#"`,

@@ -29,7 +29,7 @@ Build sites, apps and themes on [Nasaq Studio](https://studio.nasaqui.com) over 
   tokens and setup guides).
 - **Skills**
   - `nasaq-studio-build`: project, content model, bilingual entries, media, menus, theme, publish, domain, apps; with the exact `cms_*` tools.
-  - `nasaq-ui-design`: shell, forms, tables, states, RTL, Lusail, tokens, dark mode, accessibility, and a screenshot checklist.
+  - `nasaq-ui-design`: shell, forms, tables, states, RTL, IBM Plex Sans Arabic, tokens, dark mode, accessibility, and a screenshot checklist.
   - `nasaq-theme-build`: themes as real runtime code: the package contract, builder-driven settings, art direction (with approved examples), previews, live-demo model, porting, and the verification gate with a self-check script.
   - `nasaq-app-build`: CircleXO apps: splash then SSO entry flow, SDK and events webhook, hub manifest, store listings.
   - `nasaq-shadcn`: the `@nasaq` registry, preset, token bridge, shadcn MCP.
@@ -149,6 +149,6 @@ codex mcp login nasaq-studio
 - أوامر: `/nasaq:connect` و`/nasaq:new-site` و`/nasaq:new-theme` و`/nasaq:audit-ui`.
 - وكلاء: `nasaq-designer` للبناء والتحقق بلقطات الشاشة، و`nasaq-ui-reviewer` للمراجعة.
 
-**قواعد التصميم المضمّنة:** خط Lusail للعربية، مكوّنات `PhoneInput` و`AddressInput` من Nasaq، حقول الصور (رفع / مكتبة / رابط)، ثنائية اللغة مع RTL صحيح، استخدام مكوّنات Nasaq كما هي، قائمة مستخدم واحدة وسط الشريط الجانبي ومبدّل المساحات فيه، وألوان من الـ tokens فقط.
+**قواعد التصميم المضمّنة:** خط IBM Plex Sans Arabic للعربية، مكوّنات `PhoneInput` و`AddressInput` من Nasaq، حقول الصور (رفع / مكتبة / رابط)، ثنائية اللغة مع RTL صحيح، استخدام مكوّنات Nasaq كما هي، قائمة مستخدم واحدة وسط الشريط الجانبي ومبدّل المساحات فيه، وألوان من الـ tokens فقط.
 
 **الأمان:** لا يوجد أي توكن داخل المستودع. الدخول عبر OAuth أو توكن شخصي في متغيّر بيئة (`NASAQ_TOKEN`). تُنشأ المسودات أولاً ولا يتم النشر أو ربط النطاق دون موافقتك.

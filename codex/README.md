@@ -46,7 +46,7 @@ Add this to the repo's `AGENTS.md` so Codex follows the same workflow as the Cla
 ```md
 ## Nasaq
 - Building or changing a screen: follow the nasaq-ui-design skill and use Nasaq components as they are (consult the
-  nasaq-ui MCP first). Tokens only, logical CSS, Lusail for Arabic, one user menu in the sidebar, workspace switcher in
+  nasaq-ui MCP first). Tokens only, logical CSS, IBM Plex Sans Arabic for Arabic, one user menu in the sidebar, workspace switcher in
   the sidebar header. Do not finish before screenshots in EN/AR, desktop/mobile, light/dark (the "designer" role).
 - Reviewing UI: do the same checks read-only and return a scored findings list (the "reviewer" role).
 - Building on Nasaq Studio: follow nasaq-studio-build. Drafts first; ask before publishing or attaching a domain.
