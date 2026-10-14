@@ -70,7 +70,7 @@ styled by the site theme (tokens, header, footer). Design empty and sample state
 
 ## 6. UI
 
-Build screens with Nasaq UI as is (see `nasaq-ui-design`): Lusail for Arabic, logical CSS, tokens only, one user menu in
+Build screens with Nasaq UI as is (see `nasaq-ui-design`): IBM Plex Sans Arabic for Arabic, logical CSS, tokens only, one user menu in
 the sidebar footer, workspace switcher in the sidebar header, `PhoneInput` / `AddressInput` for those fields.
 
 ## Definition of done

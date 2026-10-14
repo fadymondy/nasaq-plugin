@@ -33,7 +33,7 @@ change, and tokens that never reach the page. Do not ship that.
 4. **Fully builder-driven.** Every colour, logo, brand name, chip, badge, headline, paragraph, image and section toggle
    comes from tokens and the settings schema, with a good default. Nothing user-visible is hard-coded in TSX, and every
    declared setting is actually read (a declared but unused setting is a bug).
-5. **Arabic is designed, not mirrored.** Lusail for Arabic, logical CSS only, RTL screenshots reviewed as hard as EN.
+5. **Arabic is designed, not mirrored.** IBM Plex Sans Arabic for Arabic, logical CSS only, RTL screenshots reviewed as hard as EN.
 6. **Tokens only.** Components read CSS variables; no raw hex in component code. Dark is designed, not inverted.
 7. **Previews are real.** Catalog images are screenshots of the rendered theme with realistic bilingual demo content.
    No SVG or abstract stand-ins.
@@ -117,7 +117,7 @@ Report with: screenshots taken, audit result, rubric scores, Lighthouse numbers,
 
 Unreadable token contrast in any mode/locale; header without a working mobile menu or a nav that overflows at 390 px;
 dead controls, `#` links or reloads on internal navigation; console errors (including on the 404); missing dark palette
-keys; physical left/right CSS, unmirrored directional icons or non-Lusail Arabic; hard-coded copy, colours or brand
+keys; physical left/right CSS, unmirrored directional icons or non-IBM Plex Sans Arabic Arabic; hard-coded copy, colours or brand
 that the builder cannot change; declared-but-unused settings; placeholder content, empty boxes or abstract art in
 previews; content hidden without JS or under reduced motion; no screenshot evidence in the report.
 

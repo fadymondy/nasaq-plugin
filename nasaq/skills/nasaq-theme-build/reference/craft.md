@@ -7,7 +7,7 @@ Answer in a short `DESIGN.md` in the theme folder before coding:
 - Vertical, audience, the one job the home page must do.
 - One memorable element (a signature hero, a type treatment, a motion idea). Spend boldness in one place.
 - Palette: 4-6 named colours with light and dark values, and what each is for.
-- Type: a display face and a text face for Latin, Lusail for Arabic; sizes on a modular scale of 5-7 steps with fluid `clamp()`.
+- Type: a display face and a text face for Latin, IBM Plex Sans Arabic for Arabic; sizes on a modular scale of 5-7 steps with fluid `clamp()`.
 - Layout concept with a quick ASCII wireframe of home at desktop and mobile.
 - Imagery plan: photography, illustration or 3D, one consistent treatment, aspect ratios, alt text in both languages.
 - Motion plan: entrance, reveal, hover, transition.
@@ -56,7 +56,7 @@ and fake logos.
 | Criterion | 4 means |
 |---|---|
 | Art direction | Distinct, intentional, fits the vertical; one memorable element |
-| Typography | Clear hierarchy, Lusail for Arabic, fluid scale, good measure |
+| Typography | Clear hierarchy, IBM Plex Sans Arabic for Arabic, fluid scale, good measure |
 | Colour and tokens | Complete light and dark palettes, tokens used everywhere, contrast passes |
 | Layout and rhythm | Consistent grid, varied density, strong mobile design |
 | Imagery | Real, consistent, art-directed, with alt text |

@@ -115,7 +115,7 @@ storage first, then stores the resulting URL.
 - Icons that imply direction get `rtl:-scale-x-100` (or the component's built-in mirroring).
 - Mixed content: wrap Latin fragments in `<bdi>`; show phone numbers and emails with `dir="ltr"` and `text-start`.
 - Numerals and units follow `Intl.NumberFormat(locale)`; do not concatenate strings to build sentences, use ICU messages.
-- Arabic body copy: font `--nq-font-arabic` (Lusail first), line-height 1.7+, no uppercase transforms, no letter-spacing.
+- Arabic body copy: font `--nq-font-arabic` (IBM Plex Sans Arabic first), line-height 1.7+, no uppercase transforms, no letter-spacing.
 
 ## Forbidden shortcuts
 

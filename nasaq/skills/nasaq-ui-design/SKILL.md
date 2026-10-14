@@ -1,6 +1,6 @@
 ---
 name: nasaq-ui-design
-description: Build app UIs with Nasaq UI (@fadymondy/nasaq) and shadcn - the app shell, sidebar with workspace switcher and one user menu, forms, data tables, empty/loading/error states, bilingual EN/AR with correct RTL, Lusail Arabic, design tokens, dark mode, motion and accessibility - and prove it with a screenshot checklist (EN/AR, desktop/mobile, light/dark). Use when creating or changing any screen, dashboard, admin, settings page, form or table in a Nasaq-based app, or when the user mentions Nasaq UI, NasaqProvider, AppShell, tokens, RTL or Arabic UI.
+description: Build app UIs with Nasaq UI (@fadymondy/nasaq) and shadcn - the app shell, sidebar with workspace switcher and one user menu, forms, data tables, empty/loading/error states, bilingual EN/AR with correct RTL, IBM Plex Sans Arabic, design tokens, dark mode, motion and accessibility - and prove it with a screenshot checklist (EN/AR, desktop/mobile, light/dark). Use when creating or changing any screen, dashboard, admin, settings page, form or table in a Nasaq-based app, or when the user mentions Nasaq UI, NasaqProvider, AppShell, tokens, RTL or Arabic UI.
 ---
 
 # Designing with Nasaq UI
@@ -38,9 +38,9 @@ index at `https://docs.nasaqui.com/registry.json`.
    (`ms-*`, `me-*`, `ps-*`, `pe-*`, `start-*`, `end-*`, `text-start`, `border-s`; never `ml-`, `pr-`, `left-`, `text-left`).
    Mirror directional icons (chevrons, arrows, back/forward, progress); do not mirror logos, clocks, play, phone.
    Isolate LTR data inside RTL text (emails, URLs, codes, phone numbers) with `dir="ltr"` or `<bdi>`.
-5. **Lusail for Arabic.** The Arabic font stack starts with Lusail (`--nq-font-arabic`). Lusail is a commercial face that
-   Nasaq does not redistribute: load the product's licensed files with `@font-face` (`font-display: swap`) and confirm in the
-   browser that Arabic text really renders in Lusail (see verification). Arabic needs line-height 1.7 or more and no
+5. **IBM Plex Sans Arabic for Arabic.** The Arabic font stack starts with IBM Plex Sans Arabic (`--nq-font-arabic`), with Inter for Latin.
+   Both are SIL OFL: self-host the woff2 files with `@font-face` (`font-display: swap`), never from Google Fonts, and confirm in the
+   browser that Arabic text really renders in IBM Plex Sans Arabic (see verification). Arabic needs line-height 1.7 or more and no
    letter-spacing.
 6. **Phone and address fields use Nasaq inputs.** Phones: `PhoneInput` (searchable country list, Arabic/English names,
    value stored as E.164). Addresses: Nasaq's `AddressInput` where the installed version exports it (check with

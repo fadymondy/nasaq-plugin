@@ -44,7 +44,7 @@ A theme that ships its own route tree (a ported site) marks itself with an empty
       "dark":  { /* the same roles, designed for dark */ }
     },
     "radius": "md", "density": "comfortable",
-    "fonts": { "latin": "...", "heading": "...", "ar": "Lusail" }
+    "fonts": { "latin": "...", "heading": "...", "ar": "IBM Plex Sans Arabic" }
   },
   "routes": [ { "type": "post", "list": "/blog", "entry": "/blog/{slug}" } ],
   "settings": [ /* builder schema, below */ ],
