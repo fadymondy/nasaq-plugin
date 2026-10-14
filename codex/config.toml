@@ -8,7 +8,7 @@ bearer_token_env_var = "NASAQ_TOKEN"
 
 # Nasaq UI catalogue (components, tokens, setup guides). Public, no sign-in.
 [mcp_servers.nasaq-ui]
-url = "https://nasaq-mcp.fadymondy.com/mcp"
+url = "https://mcp.nasaqui.com/mcp"
 
 # Optional: shadcn MCP server (search and install registry items by prompt).
 # [mcp_servers.shadcn]

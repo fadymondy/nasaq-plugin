@@ -29,7 +29,7 @@ Add the Nasaq namespace to `components.json`:
 ```json
 {
   "registries": {
-    "@nasaq": "https://nasaq-ui.fadymondy.com/r/{name}.json"
+    "@nasaq": "https://docs.nasaqui.com/r/{name}.json"
   }
 }
 ```
@@ -38,14 +38,14 @@ Then add components by name, or the whole preset (tokens, theme bridge, provider
 
 ```bash
 npx shadcn@latest add @nasaq/button @nasaq/data-table @nasaq/phone-input
-npx shadcn@latest add https://nasaq-ui.fadymondy.com/r/nasaq.json     # preset
-npx shadcn@latest add https://nasaq-ui.fadymondy.com/r/theme-<brand>.json   # optional brand theme
+npx shadcn@latest add https://docs.nasaqui.com/r/nasaq.json     # preset
+npx shadcn@latest add https://docs.nasaqui.com/r/theme-<brand>.json   # optional brand theme
 ```
 
 Component names are the kebab-case catalogue names. The first add also writes `components/nasaq/nasaq-provider.tsx`;
 wrap the app in it (same props as the npm `NasaqProvider`: `brand`, `locale`, `onLocaleChange`, `locales`).
 Find names and the exact add command per component with the `nasaq-ui` MCP (`search_components`, then `get_component`
-which includes the `shadcn` install command) or the index at `https://nasaq-ui.fadymondy.com/registry.json`.
+which includes the `shadcn` install command) or the index at `https://docs.nasaqui.com/registry.json`.
 After adding, check what changed in the diff and run the type check; the CLI may add dependencies and CSS.
 
 ## Token bridge

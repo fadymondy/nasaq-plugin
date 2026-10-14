@@ -6,7 +6,7 @@
     },
     "nasaq-ui": {
       "type": "http",
-      "url": "https://nasaq-mcp.fadymondy.com/mcp"
+      "url": "https://mcp.nasaqui.com/mcp"
     }
   }
 }
